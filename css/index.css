@@ -1,0 +1,180 @@
+  /* reset */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  a {
+      text-decoration: none;
+      color: #fff;
+  }
+
+  li {
+      list-style: none;
+  }
+
+  /* common */
+  body {
+      height: auto;
+  }
+
+  .clearfix::after {
+      content: "";
+      display: block;
+      clear: both;
+  }
+
+  /* top */
+  .container {
+      height: 100%;
+      background: #f0f0f0;
+  }
+
+  .layout {
+      width: 97vw;
+      height: auto;
+      background: #f1f4f9;
+      margin: 0px auto;
+      padding: 0.3rem 0.02rem;
+      color: #464646;
+      font-size: 0.14rem;
+  }
+
+  .top,
+  .top img {
+      width: 100%;
+  }
+
+  .ticketIntro {
+      background: #fff;
+      border-radius: 0.11rem;
+      padding: 0.2rem 0.04rem;
+      margin-top: 0.1rem;
+  }
+
+  .ticketIntro p {
+      line-height: 1.7;
+  }
+
+  .ticket_left {
+      float: left;
+  }
+
+
+
+  .ticket_right {
+      float: right;
+  }
+
+  .ticketIntro .ticket_right.allTicket {
+      margin-top: 0.08rem;
+  }
+
+  .ticketIntro .ticket_right.allTicket .buy {
+      margin-top: 0.05rem;
+  }
+
+  .ticket_right .price {
+      color: #b60307;
+      text-align: center;
+      font-weight: bold
+  }
+
+  .ticket_right .buy {
+      background: #ef7601;
+      border-radius: 0.15rem;
+      color: #fff;
+      padding: 0 0.15rem;
+      font-size: 0.11rem;
+  }
+
+  .ticket_right .buy a {
+      display: block;
+  }
+
+
+
+  /* bottom   */
+  .scenic_list .add {
+      line-height: 0.45rem;
+      text-align: center;
+      font-size: 0.4rem;
+      font-weight: normal;
+      color: #bebebe;
+      margin-bottom: -0.1rem;
+  }
+
+  .list_box ul {
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-around
+  }
+
+
+  .list_box ul li {
+      width: 31%;
+
+  }
+
+  .list_box ul li .item {
+      width: 100%;
+  }
+
+  .circle {
+      width: 0.16rem;
+      position: relative;
+      top: 0.23rem;
+      left: 0.05rem;
+  }
+
+
+  /* tickets */
+  .tickets .ticket_left {
+      font-size: 0.12rem;
+  }
+
+  .tickets .ticket_left p:nth-child(1) {
+      font-size: 0.15rem;
+      font-weight: bold;
+  }
+
+  .tickets .ticketIntro {
+      display: none;
+  }
+
+
+  /* 景区介绍 */
+  .scenic_intro {
+      background: #fff;
+      padding: 0.3rem 0.15rem;
+      letter-spacing: 0.4px;
+      margin-top: 0.2rem;
+  }
+
+  .scenic_intro .intro_text {
+      line-height: 1.6;
+      font-size: 0.13rem;
+      margin-top: 0.1rem;
+  }
+
+  .scenic_intro .show_time {
+      background: #dcdcdc;
+      border-radius: 0.22rem;
+      line-height: 1.6;
+      padding: 0.05rem 0.2rem;
+      font-size: 0.14rem;
+      margin-top: 0.15rem;
+  }
+
+  .scenic_intro .iconfont {
+      font-size: 0.18rem;
+  }
+
+  .scenic_intro .contact {
+      margin-top: 0.15rem;
+  }
+
+  .scenic_intro .address {
+      margin-top: 0.15rem;
+  }
