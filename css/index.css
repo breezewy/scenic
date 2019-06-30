@@ -49,23 +49,30 @@
   .ticketIntro {
       background: #fff;
       border-radius: 0.11rem;
-      padding: 0.2rem 0.04rem;
+      padding: 0.2rem 0.07rem;
       margin-top: 0.1rem;
   }
 
   .ticketIntro p {
-      line-height: 1.7;
+      line-height: 1.4;
   }
 
   .ticket_left {
       float: left;
   }
 
-
-
   .ticket_right {
       float: right;
   }
+
+  .top .ticket_left {
+      margin-top: 0.1rem;
+  }
+
+  .top .ticket_right {
+      margin-top: -0.08rem;
+  }
+
 
   .ticketIntro .ticket_right.allTicket {
       margin-top: 0.08rem;
@@ -95,7 +102,6 @@
 
 
 
-  /* bottom   */
   .scenic_list .add {
       line-height: 0.45rem;
       text-align: center;
@@ -139,15 +145,11 @@
       font-weight: bold;
   }
 
-  .tickets .ticketIntro {
-      display: none;
-  }
-
 
   /* 景区介绍 */
   .scenic_intro {
       background: #fff;
-      padding: 0.3rem 0.15rem;
+      padding: 0.2rem 0.15rem;
       letter-spacing: 0.4px;
       margin-top: 0.2rem;
   }
